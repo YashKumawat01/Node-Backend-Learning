@@ -25,3 +25,12 @@
 1772115196648 POST /api New Request Received
 1772115305731 POST /api New Request Received
 1772115328639 GET /api New Request Received
+1772125466472 GET / New Request Received
+1772125466570 GET /favicon.ico New Request Received
+1772125491481 GET /about?myname=yash New Request Received
+1772126541273 GET /about New Request Received
+1772126543730 GET / New Request Received
+1772126556046 GET /about New Request Received
+1772126582132 GET /about New Request Received
+1772126587571 GET /about New Request Received
+1772126597370 GET /about// New Request Received

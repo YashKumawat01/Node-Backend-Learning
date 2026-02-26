@@ -1,5 +1,5 @@
 {
-  "name": "web-server",
+  "name": "express",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "url": "^0.11.4"
-  }
+  "description": ""
 }
