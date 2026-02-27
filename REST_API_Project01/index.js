@@ -10,6 +10,15 @@ const users = require(FILE);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Custom Middleware
+
+app.use((req,res,next)=>{
+  fs.appendFile("log.txt",`${Date.now()}: ${req.method} : ${req.path}\n`,(err,data)=>{
+    next();
+  })
+  // next();
+})
+
 // Main Page
 app.get("/", (req, res) => {
   return res.send("Server is For Users");
