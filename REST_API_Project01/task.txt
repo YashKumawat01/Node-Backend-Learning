@@ -1,0 +1,25 @@
+REST API Designing - JSON
+
+GET /user -> List all users - HTML Document Render       - DONE
+GET /api/user -> List all users JSON                     - DONE
+
+GET /api/user/1 -> Get the user with id 1                - DONE
+GET /api/user/2 -> Get the user with id 2                 - DONE
+
+Dynamic Path Parameters
+GET /api/user/:id
+:id -> Variable | Dynamic
+
+POST /user -> create new user
+
+PATCH /user/id -> Edit the user with ID
+PATCH /user/1 -> Edit the user with ID : 1
+PATCH /user/2 -> Edit the user with ID : 2
+
+DELETE /user/1 -> Delete the user with id : 1
+
+
+
+// We use Mockaroo.com for hardcre the Data
+
+// We use POSTMAN for api testing  
